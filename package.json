@@ -1,0 +1,30 @@
+{
+  "name": "react-image-loader",
+  "version": "0.0.1",
+  "description": "Wrapper on top of <img/> tag for applying fallback background image to banners and thumbnails",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Ankit Sharma",
+    "email": "ankitsharma6466@gmail.com"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1",
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
