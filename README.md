@@ -12,7 +12,7 @@ Displays a fallback avatar until the image is loaded
 import AvatarLoader from 'react-avatar-loader'
 
 ...
-    <AvatarLoader/>
+    <AvatarLoader src='image_to_be_loaded' style={style}/>
 ...
 
 ```
