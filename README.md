@@ -2,14 +2,14 @@
 
 Simple React component for loading image, thumbnails.
 
-It displays a fallback avatar until the image is loaded
+Displays a fallback avatar until the image is loaded
 
 ### install
-npm i react-avatar-loader
+`npm install react-avatar-loader`
 
 ### Usage
 ```
-import AvatarLoader from 'react-image-loader'
+import AvatarLoader from 'react-avatar-loader'
 
 ...
     <AvatarLoader/>

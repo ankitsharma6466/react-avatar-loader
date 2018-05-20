@@ -1,6 +1,6 @@
 {
   "name": "react-avatar-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrapper on top of <img/> tag for applying fallback background image to banners and thumbnails",
   "main": "build/index.js",
   "scripts": {
