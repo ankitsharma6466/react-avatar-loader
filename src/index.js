@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Avatar from './avatar';
 
-class ImageLoader extends React.Component {
+class AvatarLoader extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,16 +48,16 @@ class ImageLoader extends React.Component {
   }
 }
 
-ImageLoader.propTypes = {
+AvatarLoader.propTypes = {
   src: PropTypes.string,
   style: PropTypes.object,
   className: PropTypes.string,
 };
 
-ImageLoader.defaultProps = {
+AvatarLoader.defaultProps = {
   src: null,
   style: {},
   className: '',
 };
 
-export default ImageLoader;
+export default AvatarLoader;

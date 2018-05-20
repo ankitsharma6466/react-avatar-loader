@@ -570,13 +570,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var ImageLoader = function (_React$Component) {
-  _inherits(ImageLoader, _React$Component);
+var AvatarLoader = function (_React$Component) {
+  _inherits(AvatarLoader, _React$Component);
 
-  function ImageLoader(props) {
-    _classCallCheck(this, ImageLoader);
+  function AvatarLoader(props) {
+    _classCallCheck(this, AvatarLoader);
 
-    var _this = _possibleConstructorReturn(this, (ImageLoader.__proto__ || Object.getPrototypeOf(ImageLoader)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (AvatarLoader.__proto__ || Object.getPrototypeOf(AvatarLoader)).call(this, props));
 
     _this.state = {
       currentSource: null
@@ -584,7 +584,7 @@ var ImageLoader = function (_React$Component) {
     return _this;
   }
 
-  _createClass(ImageLoader, [{
+  _createClass(AvatarLoader, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
       this.imageObj = new window.Image();
@@ -634,22 +634,22 @@ var ImageLoader = function (_React$Component) {
     }
   }]);
 
-  return ImageLoader;
+  return AvatarLoader;
 }(_react2.default.Component);
 
-ImageLoader.propTypes = {
+AvatarLoader.propTypes = {
   src: _propTypes2.default.string,
   style: _propTypes2.default.object,
   className: _propTypes2.default.string
 };
 
-ImageLoader.defaultProps = {
+AvatarLoader.defaultProps = {
   src: null,
   style: {},
   className: ''
 };
 
-exports.default = ImageLoader;
+exports.default = AvatarLoader;
 
 /***/ }),
 /* 9 */
